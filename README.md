@@ -119,17 +119,6 @@ Contains the complete analysis and modelling workflow.
 
 Lists the Python packages required to run the notebook.
 
-Suggested initial packages:
-
-```text
-jupyter
-matplotlib
-pandas
-scikit-learn
-```
-
-Exact versions may be pinned after the working environment is confirmed.
-
 ### `.gitignore`
 
 Excludes local environments, notebook checkpoints, operating-system files and other generated artefacts.
