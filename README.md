@@ -121,6 +121,8 @@ The notebook follows this sequence:
 
 The logistic regression pipeline substantially outperformed the majority-class baseline. On the held-out test set, it correctly classified all 72 benign samples and 39 of 42 malignant samples.
 
+[Test-set Confusion matrix](confusion_matrix.png)
+
 The confusion matrix contained:
 
 - 72 true negatives;
@@ -137,6 +139,7 @@ breast-cancer-ml-workflow/
 ├── README.md
 ├── PROJECT_PLAN.md
 ├── breast_cancer_workflow.ipynb
+├── confusion_matrix.png
 ├── requirements.txt
 └── .gitignore
 ```
@@ -144,6 +147,7 @@ breast-cancer-ml-workflow/
 - `README.md` — project overview, methodology, setup and results.
 - `PROJECT_PLAN.md` — implementation plan, learning objectives and project scope.
 - `breast_cancer_workflow.ipynb` — complete analysis and modelling workflow.
+- `confusion_matrix.png` — visual representation of the confusion matrix.
 - `requirements.txt` — Python dependencies.
 - `.gitignore` — excluded local and generated files.
 
