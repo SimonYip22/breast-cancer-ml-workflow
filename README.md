@@ -121,7 +121,7 @@ The notebook follows this sequence:
 
 The logistic regression pipeline substantially outperformed the majority-class baseline. On the held-out test set, it correctly classified all 72 benign samples and 39 of 42 malignant samples.
 
-[Test-set Confusion matrix](confusion_matrix.png)
+![Test-set Confusion matrix](confusion_matrix.png)
 
 The confusion matrix contained:
 
