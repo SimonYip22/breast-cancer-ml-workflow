@@ -201,6 +201,10 @@ The model has not undergone external or prospective validation, probability cali
 
 The model is not intended for diagnosis, screening, treatment decisions or other clinical use.
 
+## Extensions
+
+Controlled extension phase including cross-validation, hyperparameter tuning, feature engineering, and model comparison will be implemented next 
+
 ## References
 
 - [Scikit-learn Breast Cancer Wisconsin dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
