@@ -105,12 +105,21 @@ The notebook follows this sequence:
 
 ### Five-fold cross-validation
 
-| Metric | Mean score |
-|---|---:|
-| Accuracy | 0.9714 |
-| Precision | 0.9822 |
-| Recall | 0.9412 |
-| F1 | 0.9604 |
+| Metric | Mean score | Standard deviation |
+|---|---:| ---:|
+| Accuracy | 0.9714 | 0.0204 |
+| Precision | 0.9822 | 0.0241 |
+| Recall | 0.9412 | 0.0492 |
+| F1 | 0.9604 | 0.0283 |
+
+### Regularisation tuning cross-validation
+
+| Metric | Mean score | Standard deviation |
+|---|---:| ---:|
+| Accuracy | 0.9714 | 0.0149 |
+| Precision | 0.9822 | 0.0241 |
+| Recall | 0.9412 | 0.0322 |
+| F1 | 0.9608 | 0.0204 |
 
 ### Held-out test performance
 
