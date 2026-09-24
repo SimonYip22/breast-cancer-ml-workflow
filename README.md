@@ -10,25 +10,14 @@ A controlled extension additionally examines model learning behaviour and evalua
 
 The objective is to predict whether a tumour sample is malignant or benign from numerical measurements derived from digitised images of breast mass cell nuclei.
 
-The workflow includes:
+The workflow is organised into four stages:
 
-- dataset inspection and visualisation;
-- review of highly correlated measurements;
-- removal of six repeated radius and perimeter features;
-- stratified train/test splitting;
-- majority-class baseline modelling;
-- numerical scaling with `StandardScaler`;
-- logistic regression using a scikit-learn `Pipeline`;
-- five-fold cross-validation;
-- held-out test evaluation;
-- coefficient review and targeted error analysis;
-- learning-curve analysis;
-- limited tuning of logistic regression L2 regularisation;
-- nested cross-validation of the tuning procedure;
-- comparison of default and tuned validation performance;
-- discussion of limitations.
+- **Data preparation:** dataset inspection and visualisation, review of highly correlated measurements, removal of six repeated radius and perimeter features, and stratified train/test splitting.
+- **Baseline and modelling:** majority-class baseline, numerical scaling with `StandardScaler`, and logistic regression within a scikit-learn `Pipeline`.
+- **Evaluation and interpretation:** five-fold cross-validation, held-out test evaluation, coefficient review, and targeted error analysis.
+- **Controlled extension:** learning-curve analysis, limited tuning of L2 regularisation, nested cross-validation of the tuning procedure, and comparison of default versus tuned validation performance.
 
-The project is intentionally bounded. It does not attempt exhaustive model optimisation or establish clinical utility.
+The project is intentionally bounded and does not attempt exhaustive model optimisation or establish clinical utility.
 
 ## Dataset
 
