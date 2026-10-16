@@ -147,7 +147,7 @@ The held-out test set was not used for learning-curve analysis or hyperparameter
 
 The learning curve evaluates how training and validation F1 change as progressively larger portions of the available training data are used.
 
-![Logistic regression learning curve](learning_curve.png)
+![Logistic regression learning curve](docs/learning_curve.png)
 
 At small training sizes, training F1 was close to 1.0 while validation F1 was substantially lower, indicating high variance and overfitting when very little data was available.
 
@@ -256,7 +256,7 @@ The logistic regression pipeline substantially outperformed the majority-class b
 
 On the held-out test set, it correctly classified all 72 benign samples and 39 of 42 malignant samples.
 
-![Test-set confusion matrix](confusion_matrix.png)
+![Test-set confusion matrix](docs/confusion_matrix.png)
 
 The confusion matrix contained:
 
@@ -285,16 +285,15 @@ The controlled extension therefore supported retaining the simpler default logis
 ```text
 breast-cancer-ml-workflow/
 ├── README.md
-├── PROJECT_PLAN.md
 ├── breast_cancer_workflow.ipynb
-├── confusion_matrix.png
-├── learning_curve.png
+├── docs/
+│   ├── confusion_matrix.png
+│   └── learning_curve.png
 ├── requirements.txt
 └── .gitignore
 ```
 
 - `README.md` — project overview, methodology, results and conclusions.
-- `PROJECT_PLAN.md` — implementation plan, learning objectives and project scope.
 - `breast_cancer_workflow.ipynb` — complete analysis, modelling and controlled extension workflow.
 - `confusion_matrix.png` — held-out test-set confusion matrix.
 - `learning_curve.png` — training and validation F1 across increasing training-set sizes.
